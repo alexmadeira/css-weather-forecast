@@ -54,7 +54,7 @@ body:before {
     rgba(255, 148, 0, 0.59) 28%,
     rgba(255, 148, 0, 0) 69%
   );
-  /* animation: hot 10s linear infinite; */
+  animation: hot 10s linear infinite;
 }
 
 @keyframes shake {
@@ -113,6 +113,51 @@ body:before {
   }
   100% {
     opacity: 0;
+  }
+}
+
+.toobar {
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.toobar a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  animation: highlight 10s linear infinite;
+  font-size: 16px;
+}
+.toobar a:hover {
+  text-decoration: underline;
+}
+
+@keyframes highlight {
+  0% {
+    color: rgba(250, 255, 0, 1);
+    font-size: 20px;
+  }
+  1% {
+    color: #fff;
+    font-size: 16px;
+  }
+  2% {
+    color: rgba(250, 255, 0, 1);
+    font-size: 20px;
+  }
+  5% {
+    color: #fff;
+    font-size: 16px;
+  }
+  100% {
+    color: #fff;
+    font-size: 16px;
   }
 }
 
