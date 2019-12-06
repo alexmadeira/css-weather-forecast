@@ -1,4 +1,4 @@
-# CSS3 - Sexta-feira Chuvosa
+# CSS3 - Sexta-feira Chuvosa [![Netlify Status](https://api.netlify.com/api/v1/badges/c1dbf266-92c5-4f78-b2d9-0bfbee4fd5c5/deploy-status)](https://app.netlify.com/sites/gifted-joliot-1647f8/deploys)
 
 Um projeto que desenvolvi para passar o tempo e me divertir.
 
