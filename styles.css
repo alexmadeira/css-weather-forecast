@@ -423,6 +423,14 @@ i.drop {
   animation: drop 1s cubic-bezier(0.42, 0, 0.96, 0.74) 1.1s infinite;
 }
 
+@keyframes drop {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 106%;
+  }
+}
 .thunder {
   position: absolute;
   opacity: 0;
