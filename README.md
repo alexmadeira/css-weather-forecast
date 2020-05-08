@@ -10,7 +10,7 @@ Um projeto que desenvolvi para passar o tempo e me divertir.
 
 ## Preview
 
-[![Sexta-feira Chuvosa - Alex Madeira](http://forecast.alexmadeira.com.br/preview.gif)](http://forecast.alexmadeira.com.br)
+[![Sexta-feira Chuvosa - Alex Madeira](https://sexta-feira.alexmadeira.com.br/preview.gif)](http://sexta-feira.alexmadeira.com.br)
 
 ## Começando
 
